@@ -7,16 +7,12 @@ stage('Build')
 {
 steps{
 echo "Building the Project with jenkins!.........."
-
-ps -aux >> report.rxt
-
 }
 }
 stage('Test') 
 {
 steps{
 echo "Testing the Project with jenkins!.........."
-date 
 }
 }
 stage('Deploy') 
