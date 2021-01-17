@@ -6,19 +6,19 @@ stages
 stage('Build') 
 {
 steps{
-echo "Building the Project with jenkins.........."
+echo "Building the Project with jenkins!.........."
 }
 }
 stage('Test') 
 {
 steps{
-echo "Testing the Project with jenkins.........."
+echo "Testing the Project with jenkins!.........."
 }
 }
 stage('Deploy') 
 {
 steps{
-echo "Deploying the Project with jenkins.........."
+echo "Deploying the Project with jenkins!.........."
 }
 }
 }
