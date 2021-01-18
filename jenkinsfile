@@ -1,4 +1,3 @@
-  
 pipeline{
 agent any
 stages 
@@ -6,31 +5,19 @@ stages
 stage('Build') 
 {
 steps{
-<<<<<<< HEAD
-echo "Building the Project with jenkins.........."
-=======
-echo "Building the Project with jenkins!.........."
->>>>>>> 57f397254e02425b84c4681557fd25797a1a8aa0
+echo "Building the Project.........."
 }
 }
 stage('Test') 
 {
 steps{
-<<<<<<< HEAD
-echo "Testing the Project with jenkins.........."
-=======
-echo "Testing the Project with jenkins!.........."
->>>>>>> 57f397254e02425b84c4681557fd25797a1a8aa0
+echo "Testing the Project.........."
 }
 }
 stage('Deploy') 
 {
 steps{
-<<<<<<< HEAD
-echo "Deploying the Project with jenkins;.........."
-=======
-echo "Deploying the Project with jenkins!.........."
->>>>>>> 57f397254e02425b84c4681557fd25797a1a8aa0
+echo "Deploying the Project.........."
 }
 }
 }
